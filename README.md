@@ -1,35 +1,8 @@
-G-Mart Ecommerce
-📌 Live Demo
+# React + Vite
 
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-😎 Features
-  Beauty UI similar to ecommerce website
-  Fully responsive and mobile friendly
-  User can add items to cart
-  User can view details of an item
-  User can show total price in cart
-  In Item page user can add quantity of item to cart instead of click add more and more
-🚀 What technologies were used?
-  react.js (create-react-app)
-  react-dom-router
-  react-bootstrap
-  state management using Redux Toolkit
-  How can you clone and tweak this project?
-  From your command line, first clone this repo:
+Currently, two official plugins are available:
 
-# Clone this repository
-$ https://github.com/GeeteshA/G-Mart-React.js
-
-# Go into the repository
-$ cd G-Mart
-
-# Remove current origin repository
-$ git remote remove origin
-
-Then you can install the dependencies using NPM:
-
-# Install dependencies
-$ npm install
-
-# Start development server
-$ npm start
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
