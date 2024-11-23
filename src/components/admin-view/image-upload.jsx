@@ -18,12 +18,10 @@ function ProductImageUpload({
 }) {
   const inputRef = useRef(null);
 
-  console.log(isEditMode, "isEditMode");
 
   function handleImageFileChange(event) {
-    console.log(event.target.files, "event.target.files");
+    
     const selectedFile = event.target.files?.[0];
-    console.log(selectedFile);
 
     if (selectedFile) setImageFile(selectedFile);
   }
@@ -54,7 +52,6 @@ function ProductImageUpload({
       "https://g-mart-backend.onrender.com/api/admin/products/upload-image",
       data
     );
-    console.log(response, "response");
 
     if (response?.data?.success) {
       setUploadedImageUrl(response.data.result.url);
