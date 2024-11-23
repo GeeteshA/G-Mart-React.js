@@ -46,4 +46,4 @@ Make sure you have the following installed on your machine:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/g-mart.git
+   git clone https://github.com/GeeteshA/G-Mart-React.js.git
